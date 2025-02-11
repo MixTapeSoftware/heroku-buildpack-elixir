@@ -13,6 +13,9 @@ erlang_builds_url() {
     "heroku-22")
       erlang_builds_url="https://builds.hex.pm/builds/otp/ubuntu-22.04"
       ;;
+    "builder-22")
+      erlang_builds_url="https://builds.hex.pm/builds/otp/ubuntu-22.04"
+      ;;      
     *)
       erlang_builds_url="https://s3.amazonaws.com/heroku-buildpack-elixir/erlang/cedar-14"
       ;;
